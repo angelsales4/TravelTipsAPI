@@ -42,40 +42,40 @@ namespace TravelTipsAPI.Repositories
         TripType = "casal"
     },
 
-    // 🧑‍🤝‍🧑 VIAGEM COM AMIGOS
+    // VIAGEM COM AMIGOS
     new TravelTip
-    {
-        Id = 4,
-        City = "Ubatuba",
-        Country = "São Paulo - Brasil",
-        Description = "Casa ampla ideal para viagem com amigos, perto da praia.",
-        AirbnbLink = "https://www.airbnb.com.br/rooms/45712424",
-        ImageUrl = "images/ubatuba-amigos1.jpg",
-        TripType = "amigos"
-    },
+{
+    Id = 4,
+    City = "Praia do Saco",
+    Country = "São Sebastião - SP, Brasil",
+    Description = "Casa perfeita para viagem com amigos em Maresias, perto da Praia do Saco.",
+    AirbnbLink = "https://www.airbnb.com.br/rooms/45712424",
+    ImageUrl = "images/praia-saco-maresias.jpg",
+    TripType = "amigos"
+},
 
-    new TravelTip
-    {
-        Id = 5,
-        City = "Ubatuba",
-        Country = "São Paulo - Brasil",
-        Description = "Hospedagem perfeita para galera curtir junto.",
-        AirbnbLink = "https://www.airbnb.com.br/rooms/3004569",
-        ImageUrl = "images/ubatuba-amigos2.jpg",
-        TripType = "amigos"
-    },
+new TravelTip
+{
+    Id = 5,
+    City = "Praia de Guaecá",
+    Country = "São Sebastião - SP, Brasil",
+    Description = "Hospedagem ideal para grupos de amigos na Praia de Guaecá.",
+    AirbnbLink = "https://www.airbnb.com.br/rooms/3004569",
+    ImageUrl = "images/guaeca-sao-sebastiao.jpg",
+    TripType = "amigos"
+},
 
-    new TravelTip
-    {
-        Id = 6,
-        City = "Ubatuba",
-        Country = "São Paulo - Brasil",
-        Description = "Casa espaçosa para grupos de amigos.",
-        AirbnbLink = "https://www.airbnb.com.br/rooms/46921539",
-        ImageUrl = "images/ubatuba-amigos3.jpg",
-        TripType = "amigos"
-    }
-};
+new TravelTip
+{
+    Id = 6,
+    City = "Ilhabela",
+    Country = "São Paulo - Brasil",
+    Description = "Casa espaçosa para curtir Ilhabela com amigos.",
+    AirbnbLink = "https://www.airbnb.com.br/rooms/46921539",
+    ImageUrl = "images/ilhabela.jpg",
+    TripType = "amigos"
+}
+
 
 
 
