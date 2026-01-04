@@ -14,27 +14,66 @@ namespace TravelTipsAPI.Repositories
         Id = 1,
         City = "Ubatuba",
         Country = "São Paulo - Brasil",
-        Description = "Hospedagem aconchegante próxima às praias de Ubatuba, ideal para relaxar e curtir o litoral.",
+        Description = "Hospedagem aconchegante próxima às praias de Ubatuba, ideal para relaxar a dois.",
         AirbnbLink = "https://www.airbnb.com.br/rooms/24644722",
-        ImageUrl = "images/ubatuba1.jpg"
+        ImageUrl = "images/ubatuba1.jpg",
+        TripType = "casal"
     },
+
     new TravelTip
     {
         Id = 2,
         City = "Santo Antônio do Pinhal",
         Country = "São Paulo - Brasil",
-        Description = "Chalé charmoso na serra, perfeito para descansar em meio à natureza e ao clima de montanha.",
+        Description = "Chalé charmoso na serra, perfeito para uma viagem romântica.",
         AirbnbLink = "https://www.airbnb.com.br/rooms/839511205532825831",
-        ImageUrl = "images/pinhal1.jpg"
+        ImageUrl = "images/pinhal1.jpg",
+        TripType = "casal"
     },
+
     new TravelTip
     {
         Id = 3,
         City = "Ubatuba",
         Country = "São Paulo - Brasil",
-        Description = "Acomodação confortável em Ubatuba, ótima opção para quem quer praia e tranquilidade.",
+        Description = "Acomodação confortável para casal, ótima opção para curtir a praia.",
         AirbnbLink = "https://www.airbnb.com.br/rooms/45135248",
-        ImageUrl = "images/ubatuba2.jpg"
+        ImageUrl = "images/ubatuba2.jpg",
+        TripType = "casal"
+    },
+
+    // 🧑‍🤝‍🧑 VIAGEM COM AMIGOS
+    new TravelTip
+    {
+        Id = 4,
+        City = "Ubatuba",
+        Country = "São Paulo - Brasil",
+        Description = "Casa ampla ideal para viagem com amigos, perto da praia.",
+        AirbnbLink = "https://www.airbnb.com.br/rooms/45712424",
+        ImageUrl = "images/ubatuba-amigos1.jpg",
+        TripType = "amigos"
+    },
+
+    new TravelTip
+    {
+        Id = 5,
+        City = "Ubatuba",
+        Country = "São Paulo - Brasil",
+        Description = "Hospedagem perfeita para galera curtir junto.",
+        AirbnbLink = "https://www.airbnb.com.br/rooms/3004569",
+        ImageUrl = "images/ubatuba-amigos2.jpg",
+        TripType = "amigos"
+    },
+
+    new TravelTip
+    {
+        Id = 6,
+        City = "Ubatuba",
+        Country = "São Paulo - Brasil",
+        Description = "Casa espaçosa para grupos de amigos.",
+        AirbnbLink = "https://www.airbnb.com.br/rooms/46921539",
+        ImageUrl = "images/ubatuba-amigos3.jpg",
+        TripType = "amigos"
     }
 };
 

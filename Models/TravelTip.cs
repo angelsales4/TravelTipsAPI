@@ -8,5 +8,8 @@
         public string Description { get; set; } = string.Empty;
         public string AirbnbLink { get; set; } = string.Empty;
         public string ImageUrl { get; set; } = string.Empty;
+        public string TripType { get; set; } = string.Empty;
+        public string Category { get; set; } = string.Empty;
+
     }
 }
