@@ -1,10 +1,12 @@
 console.log("JS carregou");
 
 const API_URL = "https://traveltips-api.azurewebsites.net/api/traveltips";
+const container = document.getElementById("cards");
+
 let allTips = [];
 
 fetch(API_URL)
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
         allTips = data;
         renderTips(allTips);
@@ -14,7 +16,6 @@ fetch(API_URL)
     });
 
 function renderTips(tips) {
-    const container = document.getElementById("cards");
     container.innerHTML = "";
 
     tips.forEach(tip => {
@@ -43,4 +44,3 @@ function filterTips(type) {
     const filtered = allTips.filter(tip => tip.tripType === type);
     renderTips(filtered);
 }
-
